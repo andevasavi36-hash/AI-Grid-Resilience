@@ -756,7 +756,7 @@ def _render_gauge(risk_pct: float, color: str) -> None:
 
 
 def _render_result(data: Dict[str, Any]) -> None:
-    risk_pct = float(data.get("risk_percentage", data.get("prediction", 0)))
+    risk_pct = float(data.get("Predicted_Risk_Percentage", 0))
     risk_pct = max(0.0, min(100.0, risk_pct))
     category = data.get("risk_category")
     interpretation = data.get("interpretation", "")
