@@ -8,9 +8,9 @@ from datetime import datetime
 # Load Model Files
 # =========================
 
-model = joblib.load("../Pickles/random_forest_model.pkl")
-scaler = joblib.load("../Pickles/standard_scaler.pkl")
-encoder = joblib.load("../Pickles/onehot_encoder.pkl")
+model = joblib.load("random_forest_model.pkl")
+scaler = joblib.load("standard_scaler.pkl")
+encoder = joblib.load("onehot_encoder.pkl")
 
 
 
