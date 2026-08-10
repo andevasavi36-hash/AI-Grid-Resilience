@@ -28,7 +28,7 @@ import streamlit as st
 # =============================================================================
 # CONFIG — adjust to match your actual FastAPI route
 # =============================================================================
-BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
+BACKEND_URL = os.getenv("BACKEND_URL", "https://ai-grid-resilience.onrender.com")
 PREDICT_ENDPOINT = f"{BACKEND_URL}/predict"
 TIMEOUT_SECONDS = 15
 
